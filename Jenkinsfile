@@ -1,9 +1,9 @@
 pipeline {
   agent {
-    label "jenkins-gradle"
+    label "master"
   }
   environment {
-    ORG = 'brentlaster'
+    ORG = 'vbobade'
     APP_NAME = 'roarv2'
     CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
     DOCKER_REGISTRY_ORG = 'brentlaster'
