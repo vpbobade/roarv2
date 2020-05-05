@@ -1,7 +1,4 @@
 
-
-
-
 buildscript {
   repositories {
     maven {
@@ -18,6 +15,7 @@ buildscript {
 
 subprojects {
 	apply plugin: 'java'
+	apply plugin: 'base'
 	apply plugin: 'eclipse-wtp'
 	version = '1.0.0-SNAPSHOT'
 	group = 'com.demo.pipeline'
